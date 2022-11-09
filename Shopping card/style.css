@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+.card{
+    position: relative;
+    width: 25%;
+    height: 490px;
+    box-shadow: 0 1px 10px 1px #333;
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+}
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card-des{
+    padding: 20px;
+}
+.card-des p{
+    color: #333;
+}
+.card-des h4{
+    padding: 20px 0;
+    color: orangered;
+}
+.card-des span i{
+    color: orange;
+}
+.card-des span{
+    font-weight: 600;
+}
+.buy{
+    padding: 20px 0;
+}
+.buy a{
+    border-radius: 5px;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: white;
+}
+.buy a:nth-child(1){
+    background-color: rgb(50, 188, 230);
+}
+.buy a:nth-child(2){
+    background-color: rgb(252, 97, 41);
+}
+@media screen and (max-width: 800px) {
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        margin: 20px;
+        width: 80%;
+        height: 550px;
+    }
+    .buy a{
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+    }
+}
+.mark{
+    position: absolute;
+    top: 20px;
+    background-color: #200e6d;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    line-height: 14px;
+    margin-bottom: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

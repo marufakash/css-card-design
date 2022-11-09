@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEE;
+}
+.card{
+    width: 97%;
+    height: 220px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.card-img{
+    width: 20%;
+    height: 90%;
+}
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card-des{
+    letter-spacing: 0.4px;
+    padding: 30px;
+    width: 60%;
+}
+.card-des h3{
+    cursor: pointer;
+    padding-bottom: 20px;
+    color: blue;
+}
+.card-des h3:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+.card-right{
+    padding: 30px;
+    width: 20%;
+}
+.card-right h4{
+    margin-bottom: 20px;
+    color: rgb(109, 106, 106);
+}
+.card-right button{
+    cursor: pointer;
+    color: rgb(62, 62, 214);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-right button:hover{
+    color: white;
+    background-color: rgb(62, 62, 214);
+}
+.card-right span i{
+    color: orange;
+    margin: 20px 0;
+}
+.card-des p:nth-child(2){
+    padding: 20px 0;
+}
+.card-des p span{
+    cursor: pointer;
+    color: blue;
+}
+.card-des p span:hover{
+    color: orangered;
+    text-decoration: underline;
+}
