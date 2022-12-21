@@ -19,11 +19,8 @@
 .card-img{
     width: 100%;
     height: 300px;
-}
-.card-img img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    background-size: cover;
+    background-image: url("../img/sunglass.jpeg");
 }
 .card-des{
     padding: 20px;
