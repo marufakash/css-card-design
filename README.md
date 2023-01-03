@@ -15,3 +15,9 @@
 
 ### Shopping card
 - [Click here to see the project demo](https://marufakash.github.io/css-card-design/Shopping-card/index.html)
+
+### Animated Card 1
+- [Click here to see the project demo](https://marufakash.github.io/css-card-design/Animated-Card1/index.html)
+
+### Animated Card 2
+- [Click here to see the project demo](https://marufakash.github.io/css-card-design/Animated-Card2/index.html)
